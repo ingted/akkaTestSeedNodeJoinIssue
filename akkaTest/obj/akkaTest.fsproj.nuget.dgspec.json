@@ -1,0 +1,62 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\aniba\\Downloads\\mdcdev\\akka test\\akkaTest\\akkaTest.fsproj": {}
+  },
+  "projects": {
+    "C:\\Users\\aniba\\Downloads\\mdcdev\\akka test\\akkaTest\\akkaTest.fsproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\aniba\\Downloads\\mdcdev\\akka test\\akkaTest\\akkaTest.fsproj",
+        "projectName": "akkaTest",
+        "projectPath": "C:\\Users\\aniba\\Downloads\\mdcdev\\akka test\\akkaTest\\akkaTest.fsproj",
+        "packagesPath": "C:\\Users\\aniba\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\aniba\\Downloads\\mdcdev\\akka test\\akkaTest\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\aniba\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "dependencies": {
+            "Akka.Cluster": {
+              "target": "Package",
+              "version": "[1.4.10, )",
+              "generatePathProperty": true
+            },
+            "Akkling.Cluster.Sharding": {
+              "target": "Package",
+              "version": "[0.10.0, )",
+              "generatePathProperty": true
+            },
+            "FSharp.Core": {
+              "target": "Package",
+              "version": "[4.7.2, )",
+              "generatePathProperty": true
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win7-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
